@@ -1,0 +1,26 @@
+<single-spa-router>
+  <!--
+
+    This is the single-spa Layout Definition for your microfrontends.
+    See https://single-spa.js.org/docs/layout-definition/ for more information.
+
+  -->
+
+  <!-- Example layouts you might find helpful:
+
+  <nav>
+    <application name="@org/navbar"></application>
+  </nav>
+  <route path="settings">
+    <application name="@org/settings"></application>
+  </route>
+
+  -->
+
+  <main style="display: flex;">
+    <route default>
+      <div style="flex: 1;"><application name="@patrick/app1" data-props='{"target":"@patrick/app2"}'></application></div>
+      <div style="flex: 1;"><application name="@patrick/app2" data-props='{"target":"@patrick/app1"}'></application></div>
+    </route>
+  </main>
+</single-spa-router>
