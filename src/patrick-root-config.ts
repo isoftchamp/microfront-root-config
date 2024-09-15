@@ -6,9 +6,6 @@ import {
 } from "single-spa-layout";
 import microfrontendLayout from "./microfrontend-layout.html";
 
-// System.import("rxjs");
-// System.import("rxjs/operators");
-
 const routes = constructRoutes(microfrontendLayout);
 const applications = constructApplications({
   routes,
