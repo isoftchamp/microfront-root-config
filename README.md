@@ -86,7 +86,7 @@ The import maps define where the bundles for each microfrontend app are located.
 
 ## Folder Structure
 
-```
+```bash
 root-config/
   ├── src/
   │   ├── index.ejs                  # HTML template for mounting the microfrontends
