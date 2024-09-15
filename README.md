@@ -107,3 +107,6 @@ In the `root-config` directory, you can run the following npm scripts:
 `npm run build`: Creates a production build of the `root-config`.
 `npm run lint`: Lints the project using ESLint.
 `npm run format`: Formats the code using Prettier.
+
+## License
+This project is licensed under the MIT License.
