@@ -109,4 +109,4 @@ In the `root-config` directory, you can run the following npm scripts:
 `npm run format`: Formats the code using Prettier.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the LICENSE file for details.
